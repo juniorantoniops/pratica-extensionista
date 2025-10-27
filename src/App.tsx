@@ -18,181 +18,41 @@ function App() {
 
       <section className="relative pt-32 pb-20 px-6 bg-gradient-to-br from-emerald-50 via-white to-teal-50">
         <div className="max-w-7xl mx-auto">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
+          <div className="max-w-4xl mx-auto text-center">
             <div>
               <div className="inline-flex items-center gap-2 bg-emerald-100 text-emerald-800 px-4 py-2 rounded-full text-sm font-semibold mb-6">
                 <GraduationCap className="w-4 h-4" />
                 Projeto de Extensão Universitária
               </div>
               <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                Da Aposta ao <span className="text-emerald-600">Investimento</span>
+                A Educação e o <span className="text-emerald-600">Investimento</span>
               </h1>
               <p className="text-xl text-gray-700 mb-8 leading-relaxed">
-                Combater a desigualdade social através da educação financeira: compreendendo por que pessoas de baixa renda escolhem apostas em vez de investimentos.
+                Compreender diferentes contextos e como impactam as decisões financeiras, ouvindo experiências e mapeando motivações do dia a dia.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <button className="bg-emerald-600 text-white px-8 py-4 rounded-full font-semibold hover:bg-emerald-700 transition-all shadow-lg hover:shadow-xl flex items-center justify-center gap-2">
                   Responder Pesquisa
                   <ChevronRight className="w-5 h-5" />
                 </button>
-                <button className="border-2 border-gray-300 text-gray-700 px-8 py-4 rounded-full font-semibold hover:border-emerald-600 hover:text-emerald-600 transition-all">
+                <a href="#sobre" className="border-2 border-gray-300 text-gray-700 px-8 py-4 rounded-full font-semibold hover:border-emerald-600 hover:text-emerald-600 transition-all inline-flex items-center justify-center">
                   Saiba Mais
-                </button>
-              </div>
-            </div>
-            <div className="relative">
-              <div className="bg-white rounded-3xl shadow-2xl p-8 border border-gray-100">
-                <div className="space-y-6">
-                  <div className="flex items-center gap-4 p-4 bg-red-50 rounded-xl border border-red-100">
-                    <TrendingDown className="w-10 h-10 text-red-600 flex-shrink-0" />
-                    <div>
-                      <p className="font-semibold text-gray-900">Casas de Apostas</p>
-                      <p className="text-sm text-gray-600">Retorno médio: -15% a -30%</p>
-                    </div>
-                  </div>
-                  <div className="flex items-center gap-4 p-4 bg-emerald-50 rounded-xl border border-emerald-100">
-                    <BarChart3 className="w-10 h-10 text-emerald-600 flex-shrink-0" />
-                    <div>
-                      <p className="font-semibold text-gray-900">Investimentos</p>
-                      <p className="text-sm text-gray-600">Retorno médio: +10% a +15% ao ano</p>
-                    </div>
-                  </div>
-                </div>
+                </a>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="py-20 px-6 bg-white">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">O que é o Projeto</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Uma iniciativa para entender e combater a falta de educação financeira que perpetua a desigualdade social
-            </p>
-          </div>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-gradient-to-br from-emerald-50 to-teal-50 rounded-2xl p-8 border border-emerald-100">
-              <div className="bg-emerald-600 w-14 h-14 rounded-xl flex items-center justify-center mb-6">
-                <Users className="w-7 h-7 text-white" />
-              </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Nosso Objetivo</h3>
-              <p className="text-gray-700 leading-relaxed">
-                Investigar como a ausência de conhecimento sobre investimentos leva populações vulneráveis a recorrerem às casas de apostas como tentativa de melhoria financeira, perpetuando um ciclo de perdas e desigualdade.
-              </p>
-            </div>
-            <div className="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-2xl p-8 border border-blue-100">
-              <div className="bg-blue-600 w-14 h-14 rounded-xl flex items-center justify-center mb-6">
-                <ShieldCheck className="w-7 h-7 text-white" />
-              </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Nossa Abordagem</h3>
-              <p className="text-gray-700 leading-relaxed">
-                Através de pesquisa quantitativa e qualitativa, mapeamos o conhecimento financeiro da população, identificando barreiras educacionais e propondo estratégias de inclusão financeira que promovam mobilidade social.
-              </p>
-            </div>
-            <div className="bg-gradient-to-br from-amber-50 to-orange-50 rounded-2xl p-8 border border-amber-100">
-              <div className="bg-amber-600 w-14 h-14 rounded-xl flex items-center justify-center mb-6">
-                <GraduationCap className="w-7 h-7 text-white" />
-              </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Impacto Social</h3>
-              <p className="text-gray-700 leading-relaxed">
-                Educação financeira é uma ferramenta de empoderamento. Ao democratizar o conhecimento sobre investimentos, contribuímos para reduzir a desigualdade e oferecer alternativas reais de construção de patrimônio para todas as classes sociais.
-              </p>
-            </div>
-          </div>
+      <section id="sobre" className="py-20 px-6 bg-white">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-4xl font-bold text-gray-900 mb-8">O que é o Projeto</h2>
+          <p className="text-lg text-gray-700 leading-relaxed">
+            Este é uma pesquisa da prática extensionista da faculdade que busca compreender, como a desigualdade social e o acesso à informação impactam a educação financeira e influenciam escolhas sobre o uso do dinheiro (investimentos, apostas, cripto e outras). O objetivo é reunir dados e relatos para produzir materiais claros e acessíveis que apoiem decisões mais informadas, independentemente da realidade de cada pessoa.
+          </p>
         </div>
       </section>
 
-      <section className="py-20 px-6 bg-gray-50">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Dados e Estatísticas</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Números que revelam a urgência da educação financeira no Brasil
-            </p>
-          </div>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
-            <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 text-center">
-              <div className="text-5xl font-bold text-emerald-600 mb-2">52%</div>
-              <p className="text-gray-600 font-semibold">da população brasileira é inadimplente</p>
-              <p className="text-sm text-gray-500 mt-2">Fonte: Serasa, 2024</p>
-            </div>
-            <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 text-center">
-              <div className="text-5xl font-bold text-red-600 mb-2">R$ 100bi</div>
-              <p className="text-gray-600 font-semibold">movimentados em apostas online em 2023</p>
-              <p className="text-sm text-gray-500 mt-2">Fonte: Banco Central</p>
-            </div>
-            <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 text-center">
-              <div className="text-5xl font-bold text-amber-600 mb-2">71%</div>
-              <p className="text-gray-600 font-semibold">dos brasileiros não têm educação financeira básica</p>
-              <p className="text-sm text-gray-500 mt-2">Fonte: S&P Global, 2023</p>
-            </div>
-            <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 text-center">
-              <div className="text-5xl font-bold text-blue-600 mb-2">3%</div>
-              <p className="text-gray-600 font-semibold">da população de baixa renda investe</p>
-              <p className="text-sm text-gray-500 mt-2">Fonte: B3, 2024</p>
-            </div>
-          </div>
-          <div className="bg-white rounded-3xl shadow-xl p-10 border border-gray-100">
-            <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">O Ciclo da Desigualdade</h3>
-            <div className="grid md:grid-cols-2 gap-8 items-center">
-              <div className="space-y-4">
-                <div className="flex items-start gap-4">
-                  <div className="bg-red-100 text-red-600 w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 font-bold">1</div>
-                  <p className="text-gray-700"><span className="font-semibold">Falta de educação financeira</span> nas escolas e famílias de baixa renda</p>
-                </div>
-                <div className="flex items-start gap-4">
-                  <div className="bg-red-100 text-red-600 w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 font-bold">2</div>
-                  <p className="text-gray-700"><span className="font-semibold">Desconhecimento sobre investimentos</span> acessíveis e seguros</p>
-                </div>
-                <div className="flex items-start gap-4">
-                  <div className="bg-red-100 text-red-600 w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 font-bold">3</div>
-                  <p className="text-gray-700"><span className="font-semibold">Busca por ganhos rápidos</span> através de apostas e jogos de azar</p>
-                </div>
-                <div className="flex items-start gap-4">
-                  <div className="bg-red-100 text-red-600 w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 font-bold">4</div>
-                  <p className="text-gray-700"><span className="font-semibold">Perdas financeiras</span> que agravam a situação de vulnerabilidade</p>
-                </div>
-              </div>
-              <div className="bg-gradient-to-br from-emerald-50 to-teal-50 rounded-2xl p-8 border border-emerald-200">
-                <h4 className="font-bold text-gray-900 mb-4 text-lg">Comparativo de Retorno (10 anos)</h4>
-                <div className="space-y-4">
-                  <div>
-                    <div className="flex justify-between mb-2">
-                      <span className="text-gray-700 font-semibold">Apostas Esportivas</span>
-                      <span className="text-red-600 font-bold">-R$ 5.000</span>
-                    </div>
-                    <div className="bg-red-200 h-3 rounded-full w-full"></div>
-                  </div>
-                  <div>
-                    <div className="flex justify-between mb-2">
-                      <span className="text-gray-700 font-semibold">Poupança</span>
-                      <span className="text-amber-600 font-bold">+R$ 2.100</span>
-                    </div>
-                    <div className="bg-amber-300 h-3 rounded-full" style={{width: '40%'}}></div>
-                  </div>
-                  <div>
-                    <div className="flex justify-between mb-2">
-                      <span className="text-gray-700 font-semibold">Tesouro Direto</span>
-                      <span className="text-emerald-600 font-bold">+R$ 6.800</span>
-                    </div>
-                    <div className="bg-emerald-400 h-3 rounded-full" style={{width: '75%'}}></div>
-                  </div>
-                  <div>
-                    <div className="flex justify-between mb-2">
-                      <span className="text-gray-700 font-semibold">Fundos de Índice</span>
-                      <span className="text-blue-600 font-bold">+R$ 9.200</span>
-                    </div>
-                    <div className="bg-blue-400 h-3 rounded-full" style={{width: '100%'}}></div>
-                  </div>
-                </div>
-                <p className="text-sm text-gray-600 mt-4">*Simulação com aporte mensal de R$ 100</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       <section className="py-20 px-6 bg-white">
         <div className="max-w-7xl mx-auto">
