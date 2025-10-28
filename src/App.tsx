@@ -30,7 +30,7 @@ function App() {
               <p className="text-xl text-gray-700 mb-8 leading-relaxed">
                 Compreender diferentes contextos e como impactam as decisões financeiras, ouvindo experiências e mapeando motivações do dia a dia.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4">
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <button className="bg-emerald-600 text-white px-8 py-4 rounded-full font-semibold hover:bg-emerald-700 transition-all shadow-lg hover:shadow-xl flex items-center justify-center gap-2">
                   Responder Pesquisa
                   <ChevronRight className="w-5 h-5" />
@@ -56,12 +56,6 @@ function App() {
 
       <section className="py-20 px-6 bg-white">
         <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Como Conscientizar</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Estratégias para promover educação financeira e reduzir desigualdades
-            </p>
-          </div>
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-12">
             <div>
               <h3 className="text-2xl font-bold text-gray-900 mb-6">Pilares da Educação Financeira</h3>
@@ -96,7 +90,7 @@ function App() {
               </div>
             </div>
             <div className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-3xl p-10 border border-gray-200">
-              <h3 className="text-xl font-bold text-gray-900 mb-6">Alternativas às Apostas</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-6">Alternativas de Investimento</h3>
               <div className="space-y-4">
                 <div className="bg-white rounded-xl p-5 shadow-sm border border-gray-100">
                   <h4 className="font-bold text-gray-900 mb-2">Tesouro Direto</h4>
@@ -151,10 +145,10 @@ function App() {
           </div>
           <h2 className="text-4xl font-bold mb-6">Participe da Pesquisa</h2>
           <p className="text-xl text-gray-300 mb-8 leading-relaxed">
-            Sua participação é fundamental para entendermos como a falta de educação financeira impacta diferentes grupos sociais. Este estudo subsidiará políticas públicas e iniciativas de inclusão financeira.
+            Sua participação é essencial para entendermos, como diferentes realidades influenciam a educação financeira e as decisões sobre o dinheiro. Esta é uma pesquisa de prática extensionista da faculdade.
           </p>
           <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 mb-8 border border-white/10">
-            <div className="grid md:grid-cols-2 gap-6 text-left">
+            <div className="grid md:grid-cols-3 gap-6 text-left">
               <div className="flex items-start gap-3">
                 <div className="bg-emerald-600 rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 mt-1">
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -174,7 +168,7 @@ function App() {
                 </div>
                 <div>
                   <h4 className="font-semibold mb-1">Rápido e Fácil</h4>
-                  <p className="text-sm text-gray-300">Apenas 5-7 minutos para completar o formulário</p>
+                  <p className="text-sm text-gray-300">Apenas 2 minutos para completar o formulário</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
@@ -186,17 +180,6 @@ function App() {
                 <div>
                   <h4 className="font-semibold mb-1">Impacto Social</h4>
                   <p className="text-sm text-gray-300">Contribua para pesquisa científica sobre desigualdade</p>
-                </div>
-              </div>
-              <div className="flex items-start gap-3">
-                <div className="bg-emerald-600 rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 mt-1">
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                  </svg>
-                </div>
-                <div>
-                  <h4 className="font-semibold mb-1">Resultados Publicados</h4>
-                  <p className="text-sm text-gray-300">Acesso aos resultados finais da pesquisa</p>
                 </div>
               </div>
             </div>
@@ -213,39 +196,27 @@ function App() {
 
       <footer className="bg-gray-900 text-gray-300 py-16 px-6 border-t border-gray-800">
         <div className="max-w-7xl mx-auto">
-          <div className="grid md:grid-cols-4 gap-8 mb-12">
+          <div className="grid md:grid-cols-3 gap-8 mb-12">
             <div className="md:col-span-2">
               <div className="flex items-center gap-2 mb-4">
                 <GraduationCap className="w-8 h-8 text-emerald-600" />
                 <span className="text-xl font-bold text-white">Educar para Transformar</span>
               </div>
               <p className="text-gray-400 leading-relaxed mb-4">
-                Projeto de extensão universitária dedicado a combater a desigualdade social através da democratização do conhecimento sobre investimentos e educação financeira.
+                Compreender diferentes contextos e como impactam as decisões financeiras, ouvindo experiências e mapeando motivações do dia a dia.
               </p>
             </div>
             <div>
               <h4 className="text-white font-bold mb-4">Instituição</h4>
               <ul className="space-y-2 text-gray-400">
-                <li>Universidade [Nome]</li>
-                <li>Departamento de [Área]</li>
-                <li>Coordenação de Extensão</li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="text-white font-bold mb-4">Contato</h4>
-              <ul className="space-y-2 text-gray-400">
-                <li>projeto@universidade.edu.br</li>
-                <li>(00) 0000-0000</li>
-                <li className="pt-2 flex gap-3">
-                  <a href="#" className="hover:text-emerald-600 transition-colors">Instagram</a>
-                  <a href="#" className="hover:text-emerald-600 transition-colors">LinkedIn</a>
-                </li>
+                <li>Faculdade UniAnchieta</li>
+                <li>Ciência da Computação</li>
               </ul>
             </div>
           </div>
           <div className="border-t border-gray-800 pt-8 text-center text-gray-500 text-sm">
             <p>© 2024 Educar para Transformar. Projeto de Extensão Universitária.</p>
-            <p className="mt-2">Desenvolvido com o objetivo de promover justiça social através da educação financeira.</p>
+            <p className="mt-2">Desenvolvido para fins de pesquisa sobre como a desigualdade social impacta na educação financeira.</p>
           </div>
         </div>
       </footer>
