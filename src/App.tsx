@@ -9,10 +9,10 @@ function App() {
             <GraduationCap className="w-8 h-8 text-emerald-600" />
             <span className="text-xl font-bold text-gray-900">Educar para Transformar</span>
           </div>
-          <button className="bg-emerald-600 text-white px-6 py-2.5 rounded-full font-semibold hover:bg-emerald-700 transition-colors flex items-center gap-2">
+          <a href="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAARicUhlUNFdEWkRaRDZPSUZPVUlRRVJETU9JMTFaMC4u" target="_blank" rel="noopener noreferrer" className="bg-emerald-600 text-white px-6 py-2.5 rounded-full font-semibold hover:bg-emerald-700 transition-colors flex items-center gap-2">
             Participar da Pesquisa
             <ArrowRight className="w-4 h-4" />
-          </button>
+          </a>
         </nav>
       </header>
 
@@ -31,10 +31,10 @@ function App() {
                 Compreender diferentes contextos e como impactam as decisões financeiras, ouvindo experiências e mapeando motivações do dia a dia.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <button className="bg-emerald-600 text-white px-8 py-4 rounded-full font-semibold hover:bg-emerald-700 transition-all shadow-lg hover:shadow-xl flex items-center justify-center gap-2">
+                <a href="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAARicUhlUNFdEWkRaRDZPSUZPVUlRRVJETU9JMTFaMC4u" target="_blank" rel="noopener noreferrer" className="bg-emerald-600 text-white px-8 py-4 rounded-full font-semibold hover:bg-emerald-700 transition-all shadow-lg hover:shadow-xl flex items-center justify-center gap-2">
                   Responder Pesquisa
                   <ChevronRight className="w-5 h-5" />
-                </button>
+                </a>
                 <a href="#sobre" className="border-2 border-gray-300 text-gray-700 px-8 py-4 rounded-full font-semibold hover:border-emerald-600 hover:text-emerald-600 transition-all inline-flex items-center justify-center">
                   Saiba Mais
                 </a>
@@ -184,10 +184,10 @@ function App() {
               </div>
             </div>
           </div>
-          <button className="bg-emerald-600 text-white px-10 py-5 rounded-full font-bold text-lg hover:bg-emerald-700 transition-all shadow-2xl hover:shadow-emerald-500/50 inline-flex items-center gap-3">
+          <a href="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAARicUhlUNFdEWkRaRDZPSUZPVUlRRVJETU9JMTFaMC4u" target="_blank" rel="noopener noreferrer" className="bg-emerald-600 text-white px-10 py-5 rounded-full font-bold text-lg hover:bg-emerald-700 transition-all shadow-2xl hover:shadow-emerald-500/50 inline-flex items-center gap-3">
             Responder o Formulário Agora
             <ArrowRight className="w-6 h-6" />
-          </button>
+          </a>
           <p className="text-gray-400 text-sm mt-6">
             Ao participar, você está concordando com os termos de pesquisa acadêmica e uso de dados anonimizados
           </p>
