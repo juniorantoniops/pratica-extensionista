@@ -9,7 +9,7 @@ function App() {
             <GraduationCap className="w-8 h-8 text-emerald-600" />
             <span className="text-xl font-bold text-gray-900">Educar para Transformar</span>
           </div>
-          <button ref="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAARicUhlUNFdEWkRaRDZPSUZPVUlRRVJETU9JMTFaMC4u" className="bg-emerald-600 text-white px-6 py-2.5 rounded-full font-semibold hover:bg-emerald-700 transition-colors flex items-center gap-2">
+          <button className="bg-emerald-600 text-white px-6 py-2.5 rounded-full font-semibold hover:bg-emerald-700 transition-colors flex items-center gap-2">
             Participar da Pesquisa
             <ArrowRight className="w-4 h-4" />
           </button>
